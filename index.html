@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Twitch Streams</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Twitch Live Streams</h1>
+    <div class="category-selector">
+      <label for="category-dropdown">Select Category:</label>
+      <select id="category-dropdown">
+        <option value="">-- Select a Category --</option>
+      </select>
+    </div>
+    <table id="streams-table">
+      <thead>
+        <tr>
+          <th>Streamer</th>
+          <th>User ID</th>
+          <th>Viewers</th>
+          <th>Language</th>
+          <th>Mature</th>
+          <th>Broadcaster Type</th>
+          <th>Recent Video</th>
+          <th>Video Duration</th>
+          <th>Top Clip</th>
+          <th>Next Stream</th>
+          <th>Profile</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Stream data will be populated here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
